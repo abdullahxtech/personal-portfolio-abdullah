@@ -4,6 +4,8 @@ Welcome to my **personal portfolio website**, built with **Next.js**, **Tailwind
 
 ## 🚀 Live Preview
 
+![Personal Portfolio](https://github.com/abdullahxtech/abdullah-portfolio/blob/2f15167de49f3fce829b6873358ab8b5bd1b42a0/public/portfolio%20first.png)
+
 👉 [View Live Site](https://your-vercel-url.vercel.app)
 
 ---
@@ -32,5 +34,5 @@ Welcome to my **personal portfolio website**, built with **Next.js**, **Tailwind
 
 ## 📷 Screenshots
 
-> *(You can add your own screenshots below by placing image files in `/public` and using the syntax below)*
+![Personal Portfolio](https://github.com/abdullahxtech/abdullah-portfolio/blob/2f15167de49f3fce829b6873358ab8b5bd1b42a0/public/portfolio%20second.png)
 
