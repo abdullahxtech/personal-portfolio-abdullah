@@ -14,7 +14,7 @@ export default function ContactPage() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-4xl font-bold mb-4">Let's Connect</h1>
+          <h1 className="text-4xl font-bold mb-4">Let&apos;s Connect</h1>
           <p className="text-gray-600 dark:text-gray-300">
             Have a question, project idea, or just want to say hello? Drop me a message below!
           </p>

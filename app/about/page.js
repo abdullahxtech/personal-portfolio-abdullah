@@ -16,7 +16,7 @@ export default function AboutPage() {
             About Me
           </h1>
           <p className="text-center text-lg text-gray-700 dark:text-gray-300 max-w-3xl mx-auto">
-            I'm Abdullah — a frontend-focused full stack developer passionate about crafting beautiful and responsive web apps. My aim is to deliver performance-driven, user-first digital experiences.
+            I&apos;m Abdullah — a frontend-focused full stack developer passionate about crafting beautiful and responsive web apps. My aim is to deliver performance-driven, user-first digital experiences.
           </p>
         </motion.div>
 
@@ -39,7 +39,7 @@ export default function AboutPage() {
               I specialize in building modern frontends using React and Next.js. With a strong eye for UI/UX, I love translating designs into pixel-perfect code that works across all devices.
             </p>
             <p>
-              I'm also comfortable with backend development — creating APIs with Next.js and connecting them to MongoDB for full-stack functionality.
+              I&apos;m also comfortable with backend development — creating APIs with Next.js and connecting them to MongoDB for full-stack functionality.
             </p>
           </motion.div>
         </div>

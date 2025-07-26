@@ -16,7 +16,7 @@ const Homes = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                 >
-                    Hi, I'm Abdullah 👋
+                    Hi, I&apos;m Abdullah 👋
                 </motion.h1>
 
                 <motion.h2
