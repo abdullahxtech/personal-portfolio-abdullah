@@ -6,7 +6,7 @@ Welcome to my **personal portfolio website**, built with **Next.js**, **Tailwind
 
 ![Personal Portfolio](https://github.com/abdullahxtech/abdullah-portfolio/blob/2f15167de49f3fce829b6873358ab8b5bd1b42a0/public/portfolio%20first.png)
 
-👉 [View Live Site](https://your-vercel-url.vercel.app)
+👉 [View Live Site](https://personal-portfolio-abdullah.vercel.app/)
 
 ---
 
