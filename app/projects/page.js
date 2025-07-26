@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { projects } from '../data/projects';
 import ProjectCard from '@/components/ProjectCard';
 
-const page = () => {
+const Page = () => {
     // const liveProjects = projects.filter(p => p.type === 'live');
     // const githubOnly = projects.filter(p => p.type === 'github');
 
@@ -76,7 +76,7 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
 
 
 

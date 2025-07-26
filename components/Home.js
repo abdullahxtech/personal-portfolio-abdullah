@@ -66,7 +66,7 @@ const Homes = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.5, duration: 0.6 }}
             >
-                <img
+                <Image
                     src="/profile.jpg"
                     alt="Abdullah"
                     width={250}
