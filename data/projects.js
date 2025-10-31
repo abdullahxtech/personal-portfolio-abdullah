@@ -20,4 +20,11 @@ export const projects = [
     live: "https://micro-links.vercel.app",
     image: "/microlinks.png",
   },
+  {
+    title: "Booklt: Experience & Slots",
+    description: "Find and book your next adventure with Booklt. Explore unique travel experiences, select available slots, and book your trip in minutes.",
+    github: "https://github.com/abdullahxtech/bookIt",
+    live: "https://book-it-experience-and-slots.vercel.app/",
+    image: "/booklt.png",
+  },
 ];
