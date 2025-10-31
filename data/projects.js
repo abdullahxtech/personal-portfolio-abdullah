@@ -3,15 +3,15 @@ export const projects = [
     title: "Listo - Todo App",
     description: "A simple and elegant todo app built with React.",
     github: "https://github.com/abdullahxtech/Listo-Todo-App-usign-React",
+    live: "https://listo-todo-app-usign-react.vercel.app/",
     image: "/listo.png",
-    live: null, // only on GitHub
   },
   {
     title: "Spotify Clone",
     description: "A static Spotify UI clone using HTML, CSS, JS.",
     github: "https://github.com/abdullahxtech/spotify-clone",
-    image: "/spotify.png",
     live: null,
+    image: "/spotify.png",
   },
   {
     title: "Micro Links",

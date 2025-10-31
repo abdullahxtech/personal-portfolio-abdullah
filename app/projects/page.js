@@ -1,11 +1,11 @@
 "use client"
 import React, { useState } from 'react'
-import { projects } from '../data/projects';
 import ProjectCard from '@/components/ProjectCard';
+import { projects } from '@/data/projects.js';
 
 const Page = () => {
-    // const liveProjects = projects.filter(p => p.type === 'live');
-    // const githubOnly = projects.filter(p => p.type === 'github');
+    const liveProjects = projects.filter(p => p.type === 'live');
+    const githubOnly = projects.filter(p => p.type === 'github');
 
     const [searchQuery, setSearchQuery] = useState('');
     const [activeFilter, setActiveFilter] = useState('all'); // all | live | github
@@ -15,14 +15,16 @@ const Page = () => {
         const query = searchQuery.toLowerCase();
         const matchesSearch =
             project.title.toLowerCase().includes(query) ||
-            project.tech.join(' ').toLowerCase().includes(query);
+            (project.tech || []).join(' ').toLowerCase()
+
 
         const matchesFilter =
             activeFilter === 'all'
                 ? true
                 : activeFilter === 'live'
-                    ? project.liveLink
-                    : !project.liveLink;
+                    ? !!project.live
+                    : !project.live;
+
 
         return matchesSearch && matchesFilter;
     });
@@ -43,7 +45,7 @@ const Page = () => {
                     />
                 </div>
 
-                {/* 🧪 Filter Buttons */}
+                {/* Filter Buttons */}
                 <div className="flex justify-center gap-4 mb-10">
                     {['all', 'live', 'github'].map((filter) => (
                         <button
@@ -61,7 +63,7 @@ const Page = () => {
                     ))}
                 </div>
 
-                {/* 📦 Project Cards Grid */}
+                {/* Project Cards Grid */}
                 <div className="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {filteredProjects.map((project, index) => (
                         <ProjectCard key={index} project={project} />
